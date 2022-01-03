@@ -1,0 +1,58 @@
+* {
+    background-color: rgb(236, 114, 230);
+}
+
+* div {
+    width: 100%;
+}
+
+.sketch-area {
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    min-height: 50%;
+    max-height: 70%;
+    min-width: 70%;
+    max-width: 90%;
+    margin: 10px;
+    overflow-wrap: break-word;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.sketch-area div {
+    background-color: white;
+    color: white;
+    display: inline-flex;
+    max-width: 10px;
+    max-height: 10px;
+}
+
+.clear-out {
+    background-color: white;
+    color: black;
+}
+
+.rainbow-color {
+    background-color: white;
+    color: black;
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 4vw;
+}
+
+.greyscale {
+    background-color: white;
+    color: black;
+}
